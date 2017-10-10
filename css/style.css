@@ -1,0 +1,63 @@
+/*Google fonts local*/
+/* latin */
+/*@font-face {
+  font-family: 'Arbutus';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arbutus Regular'), local('Arbutus-Regular'), url(https://fonts.gstatic.com/s/arbutus/v6/Es-r6R-ox_ENfIn2MQMcrQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}*/
+
+body {
+  background-color: blue;
+}
+
+.container {
+  background-color: white;
+  margin-top: 1rem;
+}
+
+h1{
+  font-family: 'Arbutus';
+  color: blue;
+}
+
+.header {
+  margin-top: 1rem;
+}
+
+.logo {
+  padding-left: 2em;
+}
+
+.text-box {
+  height: 90%;
+  width: 90%;
+}
+.jumbotron {
+  border-radius: 3%;
+  margin-top: 2rem;
+}
+.jumbotron img {
+  height: 311px;
+  width: 100%;
+  border: thin solid black;
+}
+
+.jumbotron .text-box {
+  border: thin solid black;
+  padding: 1rem;
+}
+
+.sub-bg {
+  background-color: #fafafa;
+  margin: .5rem;
+  text-align: center;
+}
+
+
+subs img {
+  /*width: 100%;
+  height: 119px;*/
+  border: thin solid black;
+}
