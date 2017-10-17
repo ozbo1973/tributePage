@@ -113,7 +113,7 @@ a.btn {
 .subs img {
   width: 85%;
   height: 300px;
-  border: thin solid black;
+  border: 3px solid #03a9f4;
 }
 
 .xs-btn {
@@ -142,6 +142,12 @@ a.btn {
   font-size: 1.5rem;
   font-weight: bold;
   display:inline-block;
+}
+
+.tribute .text-box {
+  border: thick solid navy;
+  border-radius: 5%;
+  padding: 2.5rem;
 }
 
 /* ######   md size  #####*/
@@ -179,7 +185,6 @@ a.btn {
   .subs img {
     width: 259px;
     height: 160px;
-    border: thin solid black;
   }
 
   .sub-bg {
