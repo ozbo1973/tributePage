@@ -144,10 +144,30 @@ a.btn {
   display:inline-block;
 }
 
+/*tribute-speach page*/
 .tribute .text-box {
   border: thick solid navy;
   border-radius: 5%;
   padding: 2.5rem;
+}
+
+.tribute h3 {
+  color: #03a9f4;
+  font-weight: bold;
+}
+
+.tribute-img {
+  float: right;
+  display:inline-block;
+  margin: 1rem 2.5rem 1rem 1rem;
+
+}
+
+.tribute img {
+  border: .5rem solid navy;
+  border-radius: 2%;
+  height: 200px;
+  width: 300px;
 }
 
 /* ######   md size  #####*/
@@ -194,6 +214,11 @@ a.btn {
   .sub-bg {
     height: 550px;
     border: thin solid blue;
+  }
+
+  .tribute img {
+      height: 640px;
+      width: 480px;
   }
 
 }
