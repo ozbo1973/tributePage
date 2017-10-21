@@ -90,7 +90,7 @@ a.btn {
   padding: 1rem;
 }
 
-.jumbotron p, .subs p {
+.jumbotron .text-box p, .subs .text-box p {
   font-family: "Arimo";
   /*font-size: 1.2rem;*/
   text-align: left;
