@@ -18,7 +18,7 @@ body {
   margin-top: 1rem;
 }
 
-h1{
+h1 {
   font-family: 'Arbutus';
   font-size: 1.7em;
   color: blue;
@@ -30,14 +30,15 @@ h2 {
   color: black;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
   font-weight: bold;
   color: navy;
   text-decoration: underline;
 }
 
 a:hover {
-  font-size: 1.2rem;
+  /*font-size: 1.2rem;*/
   color: orange;
   font-weight: bold;
 }
@@ -72,7 +73,7 @@ a.btn {
   border-radius: 3%;
   margin-top: 2rem;
   background-color: #03a9f4;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 .jumbotron img {
   height: 100%;
@@ -82,7 +83,7 @@ a.btn {
 }
 
 .jumbotron .text-box {
-  margin-top: .05rem;
+  margin-top: 0.05rem;
   width: 100%;
   height: 100%;
   border: thin solid black;
@@ -90,16 +91,21 @@ a.btn {
   padding: 1rem;
 }
 
-.jumbotron .text-box p, .subs .text-box p {
-  font-family: "Arimo";
+.jumbotron .text-box p,
+.subs .text-box p {
+  font-family: 'Arimo';
   /*font-size: 1.2rem;*/
   text-align: left;
   margin: 1rem;
 }
 
+.last-text {
+  display: none;
+}
+
 .sub-bg {
   background-color: #fafafa;
-  margin: .5rem;
+  margin: 0.5rem;
   padding: 2rem;
   text-align: center;
 }
@@ -108,7 +114,6 @@ a.btn {
   border: thin solid black;
   border-radius: 10px;
 }
-
 
 .subs img {
   width: 85%;
@@ -138,10 +143,10 @@ a.btn {
 }
 
 .footer p {
-  font-family: "Arbutus";
+  font-family: 'Arbutus';
   font-size: 1.5rem;
   font-weight: bold;
-  display:inline-block;
+  display: inline-block;
 }
 
 /*tribute-speach page*/
@@ -158,26 +163,29 @@ a.btn {
 
 .tribute-img {
   float: right;
-  display:inline-block;
+  display: inline-block;
   margin: 1rem 2.5rem 1rem 1rem;
-
 }
 
 .tribute img {
-  border: .5rem solid navy;
+  border: 0.5rem solid navy;
   border-radius: 2%;
   height: 200px;
   width: 300px;
 }
 
 /* ######   md size  #####*/
-@media only screen and (min-width:990px) {
+@media only screen and (min-width: 990px) {
   body {
     font-size: 14px;
   }
 
   h1 {
     font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .header h3 {
     text-align: center;
   }
 
@@ -199,6 +207,14 @@ a.btn {
     font-size: 1.2rem;
   }
 
+  .jumbotron img {
+    border-radius: 100%;
+  }
+
+  .last-text img {
+    border-radius: 0%;
+  }
+
   .md-btn {
     display: block;
     width: 25%;
@@ -212,13 +228,12 @@ a.btn {
   }
 
   .sub-bg {
-    height: 550px;
+    height: auto;
     border: thin solid blue;
   }
 
   .tribute img {
-      height: 640px;
-      width: 480px;
+    height: 640px;
+    width: 480px;
   }
-
 }
